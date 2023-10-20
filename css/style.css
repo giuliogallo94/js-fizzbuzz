@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ms_main-container {
+  width: 100%;
+}
+
+.square {
+  width: calc((100% / 10) - 0.5rem);
+  aspect-ratio: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odd {
+  background-color: lightblue;
+}
+
+.even {
+  background-color: lightgreen;
+}
+
+.FizzBuzz {
+  background-color: red;
+}
