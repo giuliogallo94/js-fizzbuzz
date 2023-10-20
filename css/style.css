@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.ms_main-container {
-  width: 100%;
+body {
+  background-color: #083b4c;
 }
 
 .square {
@@ -15,16 +15,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1389b2;
 }
 
-.odd {
-  background-color: lightblue;
+.fizz {
+  background-color: #0bd6a1;
 }
 
-.even {
-  background-color: lightgreen;
+.buzz {
+  background-color: #ffd166;
 }
 
-.FizzBuzz {
-  background-color: red;
+.fizzbuzz {
+  background-color: #f0466f;
 }
